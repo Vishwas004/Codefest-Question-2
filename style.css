@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:url('head.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+li{
+    padding: 2%;
+}
+li a{
+    text-decoration: none;
+}
+.sarch{
+ float: right;
+}
+.search{
+    color: whitesmoke;
+    background-color:white;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+.search svg{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#lorem1{
+    background-color: orangered;
+}
+.learnmore{
+    border: 3px solid  red;
+    border-radius: 30px 30px;
+}
