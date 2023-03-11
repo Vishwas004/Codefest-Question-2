@@ -3,7 +3,7 @@
     padding: 0;
 }
 header{
-    background-image:url('head.jpg') ;
+    background-image:url('asset/head (1).jpg') ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -13,6 +13,12 @@ li{
 }
 li a{
     text-decoration: none;
+    color: white;
+}
+li a:hover{
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+    padding: 5px;
 }
 .sarch{
  float: right;
@@ -21,16 +27,62 @@ li a{
     color: whitesmoke;
     background-color:white;
     border-radius: 10px;
-    padding-right: 30px;
+    padding-right: 35px;
 }
 .search svg{
-    margin-right: 10px;
+    margin-right: 15px;
     margin-left: 10px;
 }
-#lorem1{
-    background-color: orangered;
+.lorem1{
+    background-color: rgba(255, 68, 0, 0.479);
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+.lorem2{
+    justify-content: center;
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+.more{
+    border: 3px solid white;
+    border-radius: 30px 30px;
+    background: transparent;
+    color: white;
 }
 .learnmore{
-    border: 3px solid  red;
+    border: 2px solid black;
     border-radius: 30px 30px;
+    background: transparent;
+    color:black;
+    margin-bottom: 10px;
+}
+
+/* ------------------footer--------------- */
+footer{
+    background-image: url(https://img.freepik.com/free-photo/young-man-with-equipment-exploring-nature_23-2148375098.jpg?w=740&t=st=1678516325~exp=1678516925~hmac=a8381fe71e929d4271d6de6eda237bc4c6ae353a4bfdd069dc2717571649c4fb);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-bottom: 30%;
+}
+hr{
+    width: 80%;
+}
+#lorem3{
+    text-align: left;
+    
+}
+.secpotion{
+    background-color: #ffaf3c;
+    padding: 3%;
+}
+.black2{
+    background-image: url('asset/black2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10%;
+    color: white;
 }
